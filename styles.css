@@ -148,8 +148,10 @@ a {
 
 .intro-logo {
     opacity: 0;
-    transform: scale(0.9);
-    position: relative;
+    transform: translateX(-50%);
+    top: calc(50% - 80px);
+    left:50%;
+    position: absolute;
     z-index: 2;
 }
 
@@ -160,7 +162,9 @@ a {
 }
 
 .intro-counter {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family: var(--font-serif);
     font-size: clamp(6rem, 20vw, 16rem);
